@@ -6,6 +6,9 @@ function distanceFromHqInBlocks(pickup){
     return distances
 
 }
+function distanceFromHqInFeet(pickup){
+  return distanceFromHqInBlocks(pickup) * 264;
+}
 function calculateVertical(){
 
 }
